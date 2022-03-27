@@ -6,7 +6,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 public class ReadWriteData {
-    public static void main(String[] args) throws IOException {
+    public static void main(String args[]) throws IOException {
         File file = new File("D:\\Inputfile.txt");
         FileInputStream inputStream = new FileInputStream(file);
         Scanner sc = new Scanner(inputStream);
